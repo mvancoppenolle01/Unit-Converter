@@ -1,18 +1,44 @@
-## Getting Started
+## Unit Converter
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Welcome to the Unit Converter App! Here you will be able to convert some basic calculations through Java programming. The purpose of this program is to assist you in basic calculations that are right at your fingertips rather than wasting a tab in google everytime you need to do a quick conversion. Now, how does the app work? follow the instructions listed after the folder structure section to use the application!
+
 
 ## Folder Structure
 
-The workspace contains two folders by default, where:
+There are two important files that will be of use to you.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+First, the -src folder, this folder contains the program file named "metricConverter.java" which displays the progams code if you would like to see what goes behind running the program. 
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+The second file that is important is the MetricConverter.jar file. This file is for running the program in any terminal, instructions on how to do this are in the next section of this README.md
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Program Instructions
 
-## Dependency Management
+To run this program follow the simple instructions below:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. download the .jar file 
+2. open a terminal on your PC or Laptop
+3. ensure the path on your terminal is the same as the .jar file. 
+4. to run this .jar file type: java -jar MetricConveter.jar. (if java -jar MetricConveter.jar. does not work input: java --enable-preview -jar metricConverter.jar)
+5. After running the file you should see:
+
+Welcome to Metric Converter!
+
+Please input your query.
+
+For example: km to m or in to cm
+
+Note: use mi for miles and ft for feet!
+
+6. Input your needed conversion as shown after "For Example" or as listed under the **Current Supported Conversions**
+7. Once you have ran the program once it will as "Input another query?(Y/N)" Entering Y will give you the option to run the program again, Entering N will say "Goodbye!" and exit the program
+
+
+## Current Supported Conversions
+
+1. km to m -> m to km
+2. mi to ft -> ft to mi
+3. in to cm -> cm to in
+4. oz to lbs -> lbs to oz  
+5. g to kg -> kg to g
+6. USD to EUR -> EUR to USD
+
