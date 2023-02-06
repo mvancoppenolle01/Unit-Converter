@@ -95,9 +95,6 @@ public static void main(String[] args) {
                 double convert = number / .93;
                 System.out.printf("%.2f Euro is %.2f USD\n", number, convert);  
             }
-        else if(userInput.equals(userInput)){
-            System.out.println("This unit is not currently supported");
-        }
         //Run the program again
         Scanner again = new Scanner(System.in);
             
